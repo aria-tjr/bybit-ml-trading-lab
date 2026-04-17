@@ -1,0 +1,30 @@
+{
+  "symbol": "BTCUSDT",
+  "timeframe": "15",
+  "lookback_period": 60,
+  "target_steps": 5,
+  "training_days": 60,
+  "data_rows": 5756,
+  "training_samples": 4393,
+  "test_samples": 1099,
+  "features": 15,
+  "lstm_units": [
+    128,
+    64
+  ],
+  "dropout_rate": 0.2,
+  "learning_rate": 0.001,
+  "batch_size": 64,
+  "epochs_trained": 16,
+  "final_loss": 0.022540591657161713,
+  "final_val_loss": 0.010838632471859455,
+  "evaluation": {
+    "mse": 0.00391674172222055,
+    "mae": 0.049939880813114026,
+    "rmse": 0.06258387749429202,
+    "direction_accuracy": 0.4913557779799818,
+    "scaled_mae": 4428.909340732471,
+    "sample_size": 10
+  },
+  "training_date": "2025-03-09T11:24:12.658345"
+}
