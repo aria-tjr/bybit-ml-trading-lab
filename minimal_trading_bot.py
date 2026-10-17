@@ -105,7 +105,7 @@ SYMBOL = "BTCUSDT"
 LEVERAGE = 3
 TIMEFRAMES = ["1", "5", "15", "60"]
 MAX_RISK_PER_TRADE = 0.01  # Maximum 1% risk per trade
-TRADING_MODE = "real"  # "simulation" by default, change to "real" for actual trading
+TRADING_MODE = "simulation"  # "simulation" by default, change to "real" for actual trading
 
 # Additional config parameters
 DEBUG_MODE = True  # Enable debug output and simplified models for testing

@@ -1,6 +1,6 @@
 # bybit-ml-trading-lab
 
-A research lab of Bybit futures trading bots exploring different ML + TA combinations. Four bot variants and a training script, built to compare approaches on BTCUSDT across multiple timeframes (1m / 5m / 15m / 1h).
+A research lab of Bybit futures trading bots exploring different ML + TA combinations. Three bot variants (`1.py`, `enhanced_trading_bot.py`, `minimal_trading_bot.py`), a diagnostic script and a training script, built to compare approaches on BTCUSDT across multiple timeframes (1m / 5m / 15m / 1h).
 
 ## Scripts
 
@@ -46,4 +46,4 @@ python enhanced_trading_bot.py
 
 ## ⚠️ Disclaimer
 
-This repository is a research lab intended **for educational and experimentation purposes only** and is **not** financial advice. Default mode is `TRADING_MODE = "real"` in some scripts — verify and change to `"simulation"` before running. Leveraged futures trading can result in rapid liquidation. The author assumes no liability for losses.
+This repository is a research lab intended **for educational and experimentation purposes only** and is **not** financial advice. All three bots default to simulation mode (`TRADING_MODE` / `DEFAULT_TRADING_MODE = "simulation"`); switching to `"real"` places live orders. Leveraged futures trading can result in rapid liquidation. The author assumes no liability for losses.
